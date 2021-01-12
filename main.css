@@ -1,0 +1,77 @@
+a, h1, h2, h3, div, body, html, ul, li, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#header {
+
+}
+
+#logo{
+    cursor: pointer;
+}
+
+#nav{
+
+}
+
+.nav{
+
+}
+
+#breakfast{
+    cursor: pointer;
+}
+
+#lunch{
+    cursor: pointer;
+}
+
+#dinner{
+    cursor: pointer;
+}
+
+#dessert{
+    cursor: pointer;
+}
+
+#content{
+
+}
+
+#text{
+
+}
+
+#menuButton{
+    cursor: pointer;
+}
+
+.images{
+
+}
+
+#breakfastBox{
+
+}
+
+#lunchBox{
+
+}
+
+#dinnerBox{
+
+}
+
+.desbox{
+    
+}
+
+.whiteBox{
+
+}
+
+.greenBox{
+
+}
