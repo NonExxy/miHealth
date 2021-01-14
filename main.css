@@ -1,0 +1,126 @@
+a, h1, h2, h3, div, body, html, ul, li, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    z-index: -1;
+}
+
+#header {
+    z-index: 0;
+}
+
+#nav{
+    z-index: 1;
+    display: inline;
+}
+
+#logo{
+    z-index: 2;
+    cursor: pointer;
+    display: inline;
+}
+
+.nav{
+    z-index: 2;
+    display: inline;
+}
+
+#breakfast{
+    z-index: 3;
+    cursor: pointer;
+    display: inline;
+}
+
+#lunch{
+    z-index: 3;
+    cursor: pointer;
+    display: inline;
+}
+
+#dinner{
+    z-index: 3;
+    cursor: pointer;
+    display: inline;
+}
+
+#dessert{
+    z-index: 3;
+    cursor: pointer;
+    display: inline;
+}
+
+#content{
+    background-color: #e0e0e0;
+    z-index: 0;
+}
+
+#text{
+    z-index: 1;
+    display: inline;
+
+}
+/*h1 tag id*/
+#health{
+
+}
+/*p tag id*/
+#ipsum{
+    
+}
+
+#menuButton{
+    z-index: 2;
+    cursor: pointer;
+}
+
+.images{
+    z-index: 1;
+    display: inline
+}
+
+#breakfastBox{
+    height: 60vh;
+    width: 20vw;
+    z-index: 2;
+    cursor: pointer;
+    display: inline
+}
+
+#lunchBox{
+    height: 60vh;
+    width: 20vw;
+    z-index: 2;
+    cursor: pointer;
+    display: inline
+}
+
+#dinnerBox{
+    height: 60vh;
+    width: 20vw;
+    z-index: 2;
+    cursor: pointer;
+    display: inline
+}
+
+.desbox{
+    z-index: 3;
+
+}
+/*changes with words but identical top right and bottom padding*/
+.whiteBox{
+    padding: 3vh 1.5vw 3vh 1.5vw;
+    background-color: #ffffff;
+    width: fit-content;
+    font-size: 2vh;
+}
+/*to be .5 of the parent container*/
+.greenBox{
+    width: 10vw;
+    padding: 3vh 1.5vw 3vh auto;
+    background-color: #8dc728;
+    text-align: end;
+    font-size: 2vh;
+}
