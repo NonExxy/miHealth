@@ -29,13 +29,76 @@ body{
     font-size: 1.2em;
 }
 #content{
+    display: inline-flex;
+    height: 80vh;
+    width: 99vw;
     background-color: #e0e0e0;
+    justify-content: space-around;
+}
+#health{
+    font-size: 2em;
+    font-weight: 1000;
 }
 #text{
+    height: 40vh;
     width: 25vw;
     display: inline-flex;
+    align-self: center;
+    justify-self: center;
+    justify-content: space-around;
     flex-direction: column;
 }
 #menuButton{
+    width: 12vw;
+    cursor: pointer;
+}
+.images{
+    width: 65vw;
+    display: inline-flex;
+    align-self: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+[id$="Box"]{
+    display: flex;
+    height: 65vh;
+    width: 20vw;
+}
+#breakfastBox{
+    background-image: url("images/quinoaForBox.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#lunchBox{
+    background-image: url("images/pastaForBox.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#dinnerBox{
+    background-image: url("images/shrimpForBox.jpg");;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.desArea{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-weight: 600;
+    width: 100%;
+}
+.whiteBox{
+    background-color: white;
     width: fit-content;
+    padding: 1em;
+}
+.greenBox{
+    display: flex;
+    background-color: #8dc728;
+    width: 8vw;
+    padding: 1em;
+    justify-content: flex-end;
 }
