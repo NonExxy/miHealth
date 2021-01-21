@@ -33,15 +33,14 @@ body{
     height: 80vh;
     width: 99vw;
     background-color: #e0e0e0;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-/*  WHY WON'T THE FONT SIZE CHANGE?!?!?!?!  */
 #health{
     font-size: 2em;
     font-weight: 1000;
 }
 #text{
-    height: 40vh;
+    height: 45vh;
     width: 25vw;
     display: inline-flex;
     align-self: center;
@@ -64,6 +63,7 @@ body{
     display: flex;
     height: 65vh;
     width: 20vw;
+    cursor: pointer;
 }
 #breakfastBox{
     background-image: url("images/quinoaForBox.jpg");
