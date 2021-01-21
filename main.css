@@ -1,77 +1,105 @@
-a, h1, h2, h3, div, body, html, ul, li, p {
+*{
     margin: 0;
     padding: 0;
     border: 0;
 }
-
-#header {
-
+body{
+    font-family: 'Heebo', sans-serif
 }
-
+#header{
+    width: 99vw;
+    height: 10vh;
+    display: inline-flex;
+    justify-content: space-between;
+}
 #logo{
     cursor: pointer;
+    height: 8vh;
+    align-self: center;
+    margin-left: 2vw;
 }
-
-#nav{
-
+#navArea{
+    display: inline-flex;
+    width: 25vw;
+    justify-content: space-around;
+    align-self: center;
 }
-
-.nav{
-
-}
-
-#breakfast{
+[id$='Nav']{
     cursor: pointer;
+    font-size: 1.2em;
 }
-
-#lunch{
-    cursor: pointer;
-}
-
-#dinner{
-    cursor: pointer;
-}
-
-#dessert{
-    cursor: pointer;
-}
-
 #content{
-
+    display: inline-flex;
+    height: 80vh;
+    width: 99vw;
+    background-color: #e0e0e0;
+    justify-content: space-evenly;
 }
-
+#health{
+    font-size: 2em;
+    font-weight: 1000;
+}
 #text{
-
+    height: 45vh;
+    width: 25vw;
+    display: inline-flex;
+    align-self: center;
+    justify-self: center;
+    justify-content: space-around;
+    flex-direction: column;
 }
-
 #menuButton{
+    width: 12vw;
     cursor: pointer;
 }
-
 .images{
-
+    width: 65vw;
+    display: inline-flex;
+    align-self: center;
+    justify-content: space-between;
+    flex-direction: row;
 }
-
+[id$="Box"]{
+    display: flex;
+    height: 65vh;
+    width: 20vw;
+    cursor: pointer;
+}
 #breakfastBox{
-
+    background-image: url("images/quinoaForBox.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 #lunchBox{
-
+    background-image: url("images/pastaForBox.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 #dinnerBox{
-
+    background-image: url("images/shrimpForBox.jpg");;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.desbox{
-    
+.desArea{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-weight: 600;
+    width: 100%;
 }
-
 .whiteBox{
-
+    background-color: white;
+    width: fit-content;
+    padding: 1em;
 }
-
 .greenBox{
-
+    display: flex;
+    background-color: #8dc728;
+    width: 8vw;
+    padding: 1em;
+    justify-content: flex-end;
 }
