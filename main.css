@@ -66,19 +66,19 @@ body{
     cursor: pointer;
 }
 #breakfastBox{
-    background-image: url("images/quinoaForBox.jpg");
+    background-image: url("images/quinoa.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #lunchBox{
-    background-image: url("images/pastaForBox.jpg");
+    background-image: url("images/pasta.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #dinnerBox{
-    background-image: url("images/shrimpForBox.jpg");;
+    background-image: url("images/shrimp.jpg");;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

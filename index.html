@@ -4,54 +4,45 @@
     <meta charset="utf-8">
     <title>MIHEALTH</title>
     <link href="main.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
   </head>
   <body>
       <!--head on top of screen for navigation-->
     <div id="header">
-        <div id="logo"></div>
-        <div id="nav">
-            <div class="nav" id="breakfast">
-                <h2>Breakfast</h2>
-            </div>
-            <div class="nav" id="lunch">
-                <h2>Lunch</h2>
-            </div>
-            <div class="nav" id="dinner">
-                <h2>Dinner</h2>
-            </div>
-            <div class="nav" id="dessert">
-                <h2>Dessert</h2>
-            </div>
+            <img id="logo" src="images/logo.png" alt="MIHEALTH Logo">
+        <div id="navArea">
+            <div id="breakfastNav">Breakfast</div>
+            <div id="lunchNav">Lunch</div>
+            <div id="dinnerNav">Dinner</div>
+            <div id="dessertNav">Dessert</div>
         </div>
     </div>
     <!--box containing content in center of screen-->
     <div id="content">
         <div id="text">
-            <h1>Be Healthy</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore madna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-            <img src="/images/menuButton.png" id="menuButton" alt="Browse Menu">
+            <span id="health">Be<br>Healthy</span>
+            <p id="ipsum">Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
+            <img src="images/menuButton.png" id="menuButton" alt="Browse Menu"/>
         </div>
-    </div>
-    <div class="images">
-        <div id="breakfastBox">
-            <img src="/images/quinoa.jpg" alt="Apple Breakfast Quinoa">
-            <div class="desBox">
-                <div class="whiteBox">Fresh</div>
-                <div class="greenBox">Breakfast</div>
+        <div class="images">
+            <div id="breakfastBox">
+                <div class="desArea">
+                    <div class="whiteBox">FRESH</div>
+                    <div class="greenBox">BREAKFAST  </div>
+                </div>
             </div>
-        </div>
-        <div id="lunchBox">
-            <img src="/images/pasta.jpg" alt="Mediterranean Pasta Salad">
-            <div class="desBox">
-                <div class="whiteBox"></div>
-                <div class="greenBox"></div>
+            <div id="lunchBox">
+                <div class="desArea">
+                    <div class="whiteBox">SWEET</div>
+                    <div class="greenBox">LUNCH  </div>
+                </div>
             </div>
-        </div>
-        <div id="dinnerBox">
-            <img src="/images/shrimp.jpg" alt="Shrimp Stirfry">
-            <div class="desBox">
-                <div class="whiteBox"></div>
-                <div class="greenBox"></div>
+            <div id="dinnerBox">
+                <div class="desArea">
+                    <div class="whiteBox">DELICIOUS</div>
+                    <div class="greenBox">DINNER  </div>
+                </div>
             </div>
         </div>
     </div>
